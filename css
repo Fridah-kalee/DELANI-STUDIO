@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+    /*font-family: 'Poppins', sans-serif;*/
+
+.header{
+    background-image: url('assets/backgrounds/h_img.jpg');
+    background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+.header h2 {
+    font-size: 45px;
+    font-weight: 500;
