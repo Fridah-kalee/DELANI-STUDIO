@@ -4,16 +4,55 @@
 .header{
     background-image: url('assets/backgrounds/h_img.jpg');
     background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
 }
 .header h2 {
     font-size: 45px;
     font-weight: 500;
+}
+.header p {
+    font-size: 18px;
+}
+.header .mouse-click img {
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .about {
+    padding: 0px 120px;
+  }
+  .about h2 {
+    font-weight: 500;
+  }
+  .about p {
+    font-size: 21px;
+  }
+  
+  .services {
+    height: 60vh;
+    background-image: url("./assets/backgrounds/s_image.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services h2 {
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  .services p {
+    font-size: 21px;
+  }
