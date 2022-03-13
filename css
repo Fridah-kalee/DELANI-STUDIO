@@ -56,7 +56,17 @@
 .services p {
   font-size: 21px;
 }
-
+#show1, #show2, #show3{
+  display: none;
+}
+.portfolio{
+  margin-top: 80px;
+}
+.portfolio img{
+  margin: 20px;
+  height: 220px;
+  margin: 14px;
+}
 
 
 .portfolio .row {
@@ -70,13 +80,12 @@
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
-  
+}
+.what-we-do{
+  margin-top: 80px;
 }
 
-.portfolio img {
-  height: 220px;
-  margin: 14px;
-}
+
 
 #overlay1,
 #overlay2,
@@ -126,6 +135,13 @@
 } */ */
 
 .contact{
+  margin-top: 80px;
+}
+.contact img{
+  margin: 20px;
+}
+
+.contact{
   /* height: 80vh; */
   background-image: url("./assets/backgrounds/c_image.jpg");
   background-position: center center;
@@ -138,10 +154,10 @@
   justify-content: center;
   margin: 0px 150px;
 }
-.col-md-6 {
+/* .col-md-6 {
   width: 40%;
   margin-bottom: 20px;
-}
+} */
 input[type="fname"],
 input[type="text"]:focus,
 input[type="email"],
@@ -188,15 +204,5 @@ textarea[type="text"]:focus {
   height: 20vh;
 }
 
-/* .footer .icons {
-  margin-bottom: 0px;
-}
-.footer .icons img {
-  margin: 10px;
-}
-.footer h2 {
 
-  font-size: 20px;
-}
-} */
 
