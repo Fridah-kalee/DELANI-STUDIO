@@ -160,6 +160,6 @@ textarea[type="text"]:focus {
   width: 100px;
   justify-self: flex-start;
 }
-.form-control::-webkit-input-placeholder {
+.form-control:input-placeholder {
   color: white;
 }
