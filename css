@@ -123,14 +123,15 @@
   font-weight: 500;
 } */ */
 
-.contactForm {
-  height: 80vh;
+.contact{
+  /* height: 80vh; */
   background-image: url("./assets/backgrounds/c_image.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
-.contactForm .row {
+.contact.row {
   display: flex;
   justify-content: center;
   margin: 0px 150px;
@@ -139,7 +140,7 @@
   width: 40%;
   margin-bottom: 20px;
 }
-input[type="text"],
+input[type="fname"],
 input[type="text"]:focus,
 input[type="email"],
 input[type="email"]:focus,
@@ -150,13 +151,13 @@ textarea[type="text"]:focus {
   font-size: 20px;
   outline: none;
 }
-.contactForm textarea {
+.contact textarea {
   width: 70%;
   height: 250px;
   margin: 0px auto;
 }
 
-.contactForm button {
+.contact button {
   width: 100px;
   justify-self: flex-start;
 }
