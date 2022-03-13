@@ -122,3 +122,10 @@
   margin-top: 20px;
   font-weight: 500;
 } */ */
+
+.contactForm {
+  height: 80vh;
+  background-image: url("./assets/backgrounds/c_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
