@@ -129,3 +129,37 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.contactForm .row {
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
+}
+.col-md-6 {
+  width: 40%;
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="text"]:focus,
+input[type="email"],
+input[type="email"]:focus,
+textarea[type="text"],
+textarea[type="text"]:focus {
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+}
+.contactForm textarea {
+  width: 70%;
+  height: 250px;
+  margin: 0px auto;
+}
+
+.contactForm button {
+  width: 100px;
+  justify-self: flex-start;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
