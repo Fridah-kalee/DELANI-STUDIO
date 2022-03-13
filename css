@@ -1,58 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-    /*font-family: 'Poppins', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+/*font-family: 'Poppins', sans-serif;*/
 
- .header{
-    background-image: url('assets/backgrounds/h_img.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100vh;
+.header {
+  background-image: url("assets/backgrounds/h_img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
 }
 .header h2 {
-    font-size: 45px;
-    font-weight: 500;
+  font-size: 45px;
+  font-weight: 500;
 }
 .header p {
-    font-size: 18px;
+  font-size: 18px;
 }
 .header .mouse-click img {
-    height: 40px;
-    position: absolute;
-    bottom: 0;
-  }
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.about {
+  padding: 0px 120px;
+}
+.about h2 {
+  font-weight: 500;
+}
+.about p {
+  font-size: 21px;
+}
+
+.services {
+  height: 60vh;
+  background-image: url("./assets/backgrounds/s_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services h2 {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.services p {
+  font-size: 21px;
+}
+
+.portfolio .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 4;
+}
+.portfolio .col-md-7{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
   
-  .about {
-    padding: 0px 120px;
-  }
-  .about h2 {
-    font-weight: 500;
-  }
-  .about p {
-    font-size: 21px;
-  }
-  
-  .services {
-    height: 60vh;
-    background-image: url("./assets/backgrounds/s_image.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .services h2 {
-    margin-top: 20px;
-    font-weight: 500;
-  }
-  .services p {
-    font-size: 21px;
-  }
+}
+
+.portfolio img {
+  height: 220px;
+  margin: 14px;
+}
+
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#work-overlay1,
+#work-overlay2,
+#work-overlay3,
+#work-overlay4,
+#work-overlay5,
+#work-overlay6,
+#work-overlay7,
+#work-overlay8 {
+  position: absolute;
+  left: 25px;
+  border: 3px solid white;
+  width: 70%;
+  color: #000;
+  display: none;
+  opacity: 4;
+}
+.overlay-text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* .overlay-effect {
+  opacity: 0.3;
+}
+
+/* .portfolio h2 {
+  margin-top: 20px;
+  font-weight: 500;
+} */ */
