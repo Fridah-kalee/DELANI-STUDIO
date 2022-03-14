@@ -115,7 +115,6 @@
 .title {
   font-size: 23px;
   font-weight: 500;
-  
 }
 
 
@@ -131,12 +130,11 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.what{
+
+.work{
   margin-top: 70px;
-  padding-bottom: 40px;
+  font-weight: bold;
 }
-
-
 
 #overlay1,
 #overlay2,
@@ -176,15 +174,6 @@
   margin-top: 10px;
 }
 
-/* .overlay-effect {
-  opacity: 0.3;
-}
-
-/* .portfolio h2 {
-  margin-top: 20px;
-  font-weight: 500;
-} */ */
-
 .contact{
   margin-top: 80px;
 }
@@ -209,10 +198,7 @@
   justify-content: center;
   margin: 0px 150px;
 }
-/* .col-md-6 {
-  width: 40%;
-  margin-bottom: 20px;
-} */
+
 input[type="fname"],
 input[type="text"]:focus,
 input[type="email"],
