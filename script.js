@@ -1,47 +1,35 @@
-$(document).ready(function(){
-
-    $("what1").click(function(){
-        $("hide1").slideToggle();
-        $("show1").slideToggle();
-    });
-
-    $("what2").click(function(){
-        $("hide2").slideToggle();
-        $("show2").slideToggle();
-    });
-
-    $("what3").click(function(){
-        $("hide3").slideToggle();
-        $("show3").slideToggle();
-    });
+$(document).ready(function() {
 
 
-    $("#submit").click(function(event){
-        event.preventDefault();
-        let name = document.getElementById("name").value;
-        let email = document.getElementById("email").value;
-        let message = document.getElementById("message").value;
-    
-        if(name == ""){
-          alert("enter your name")
-        } 
-        else if(email == ""){
-          alert("enter your email")
+    $("form#mc-embedded-subscribe-form").submit(function(event) {
+    event.preventDefault();
+      let name = $("input#name").val();
+      let email = $("input#email").val();
+      let message = $("textarea").val();
+  
+  
+      if ( name && email && message){
+            alert (`Hi ${name} we have received your message. Thank you for reaching out to us.`);
         }
-        else if(message == ""){
-          alert("write a message")
-        }
-        else {
-         alert(name + " " + "we have received your message. Thank you for reaching out to us.")
-        }
-      })
+      else {
+        alert("Please enter your name and email!");
+          }
+    });
+  
     
-    //   $(".proj").hide()
-    //   $(".project").hover(function(){
-    //     $(this).find(".proj").toggle(1000)
-    //   });
+    let cardTotalNumber =(
+        $(".card").toArray().length
+      );
+  
+    for(let cardNumber = 1; cardNumber<=cardTotalNumber;cardNumber++ ){
+        $(`.card${cardNumber}`).click(function() {
+            $(`.card-show${cardNumber}`).toggle(400);
+            $(`.card-hidden${cardNumber}`).toggle(400);
+          });
+      }
     
-    let overlayTotalNumber =(
+  
+      let overlayTotalNumber =(
         $(".overlay").toArray().length
       );
   
@@ -53,6 +41,5 @@ $(document).ready(function(){
           $(`#overlay${overlayNumber} > img`).removeClass("overlay-effect");
           $(`#work-overlay${overlayNumber}`).toggle();
         });
-
-
-});
+      }  
+    });
