@@ -24,10 +24,10 @@ This is a clone website for Delani Studio website that offers a full range of se
 ## Author
 Fridah-kalee
 
-Contact Information
+## Contact Information
 For any further inquiries or contributions or comments, reach me at Fridah-kalee
 
-License
+## License
 MIT License Copyright (c) {2022}
 
 
