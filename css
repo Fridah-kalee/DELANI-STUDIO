@@ -94,6 +94,29 @@
   height: 220px;
   margin: 14px;
 }
+.card {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-show h2 {
+  font-size: 23px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.card-hidden1,
+.card-hidden2,
+.card-hidden3 {
+  font-size: 21px;
+  display: none;
+}
+.title {
+  font-size: 23px;
+  font-weight: 500;
+  
+}
 
 
 .portfolio .row {
