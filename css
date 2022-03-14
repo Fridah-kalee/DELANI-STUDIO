@@ -21,6 +21,25 @@
 .header p {
   font-size: 18px;
 }
+.mouse{
+  padding-top: 180px;
+}
+
+.mouse-click{
+  animation: bounce 1s infinite;
+  padding-bottom: 50%;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-55px);
+  }
+  60% {
+      transform: translateY(-45px);
+  }
+}
 .header .mouse-click img {
   height: 40px;
   position: absolute;
@@ -36,6 +55,9 @@
 .about p {
   font-size: 21px;
 }
+.about1{
+  margin-top: 70px;
+}
 
 .services {
   height: 60vh;
@@ -48,7 +70,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 70px;
 }
+
 .services h2 {
   margin-top: 20px;
   font-weight: 500;
@@ -81,8 +105,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.what-we-do{
-  margin-top: 80px;
+.what{
+  margin-top: 70px;
+  padding-bottom: 40px;
 }
 
 
@@ -148,6 +173,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  margin-top: 70px;
+}
+.contact1{
+  margin-top: 70px;
 }
 .contact.row {
   display: flex;
@@ -202,6 +231,14 @@ textarea[type="text"]:focus {
 .footer {
   margin-top: 150px;
   height: 20vh;
+}
+#name{
+  text-align: center;
+  
+  
+}
+#email{
+  text-align: center;
 }
 
 

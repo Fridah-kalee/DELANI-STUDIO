@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="container about text-center ">
-          <h2><b>ABOUT US</b></h2>
+          <h2 class="about1"><b>ABOUT US</b></h2>
           <p>
             When you work with us, you are part of a team of commited
             collaborators. All aspects of our software development process are
@@ -65,7 +65,7 @@
         
         
         <div class="container-fluid WHAT WE DO text-center">
-          <h2><b>WHAT WE DO</b></h2>
+          <h2 class="what"><b>WHAT WE DO</b></h2>
           <div class="row">
             <div class="col what1">
               <div id="design">
@@ -182,20 +182,34 @@
       
 
               <div class="container-fluid contact text-center">
-                <h2><b>CONTACT US</b></h2>
+                <h2 class="contact1"><b>CONTACT US</b></h2>
                 <form 
                 action="https://gmail.us14.list-manage.com/subscribe/post?u=1b7f92c4171317acda525bbc5&amp;id=de37181861" 
                 method="post" 
-                id="mc-embedded-subscribe-form" 
-                name="mc-embedded-subscribe-form" 
+                id="mc-embedded-submit-form" 
+                name="mc-embedded-submit-form" 
                 class="validate" 
                 target="_blank" 
                 novalidate> 
                   
-              <div class="form-group form-inline">
+              <!-- <div class="form-group text-center">
                 <input type="text" name="FNAME" class="form-control" placeholder="FName..."id="name"/>
                 <input type="email" name="EMAIL" class="form-control" placeholder="Email..."id="email"/>
+              </div> -->
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <input type="text" name="FNAME" class="form-control" placeholder="FName..."id="name"/>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <input type="text" name="EMAIL" class="form-control" placeholder="Email..."id="email"/>
+                  </div>
+                </div>
               </div>
+
               
               <div class="form-group">
                 <textarea
@@ -203,7 +217,9 @@
               </textarea>
               <br></br>
               </div>
+              <button type="submit" class="btn btn-primary col-md-1">Submit</button>
             </div>
+            
               
               <div id="mce-responses" class="clear m-3">
                   <div 
@@ -217,7 +233,7 @@
                   style="display:none">
                 </div>
                 </div>    
-              <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+              
             </div>
                       
               </form>

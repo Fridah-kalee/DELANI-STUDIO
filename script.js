@@ -15,10 +15,12 @@ $(document).ready(function(){
         $("show3").slideToggle();
     });
 
-    $("#submit").click(function(){
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var message = document.getElementById("message").value;
+
+    $("#submit").click(function(event){
+        event.preventDefault();
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let message = document.getElementById("message").value;
     
         if(name == ""){
           alert("enter your name")
@@ -34,10 +36,23 @@ $(document).ready(function(){
         }
       })
     
-      $(".proj").hide()
-      $(".project").hover(function(){
-        $(this).find(".proj").toggle(1000)
-      });
+    //   $(".proj").hide()
+    //   $(".project").hover(function(){
+    //     $(this).find(".proj").toggle(1000)
+    //   });
+    
+    let overlayTotalNumber =(
+        $(".overlay").toArray().length
+      );
+  
+      for(let overlayNumber = 1; overlayNumber<=overlayTotalNumber;overlayNumber++){
+          $(`#overlay${overlayNumber}`).mouseover(function() {
+          $(`#overlay${overlayNumber} > img`).addClass("overlay-effect");
+          $(`#work-overlay${overlayNumber}`).toggle();
+        }).mouseout(function(){
+          $(`#overlay${overlayNumber} > img`).removeClass("overlay-effect");
+          $(`#work-overlay${overlayNumber}`).toggle();
+        });
 
 
 });
