@@ -1,6 +1,6 @@
 # Delani-Studio
 ## Description
-This is a clone website for Delani Studio website that offers a full range of services it demonstrates the use of bootstrap, Javascript and jQuery in making a website.
+This is a clone website for Delani Studio that offers a full range of services it demonstrates the use of bootstrap, Javascript and jQuery in making a website.
 ## Project Setup Instructions
 * Open Terminal {Ctrl+Alt+T}
 * git clone https://github.com/Fridah-kalee/Delani-Studio.git
