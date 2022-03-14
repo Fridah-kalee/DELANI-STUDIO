@@ -80,9 +80,12 @@
 .services p {
   font-size: 21px;
 }
-#show1, #show2, #show3{
+/* #show1, #show2, #show3{
   display: none;
-}
+} */
+/* #design,#development,#product{
+  display: none;
+} */
 .portfolio{
   margin-top: 80px;
 }
