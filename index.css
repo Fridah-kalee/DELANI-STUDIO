@@ -80,12 +80,7 @@
 .services p {
   font-size: 21px;
 }
-/* #show1, #show2, #show3{
-  display: none;
-} */
-/* #design,#development,#product{
-  display: none;
-} */
+
 .portfolio{
   margin-top: 80px;
 }
@@ -122,7 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 4;
+  /* opacity: 4; */
 }
 .portfolio .col-md-7{
   display: flex;
@@ -252,6 +247,7 @@ textarea[type="text"]:focus {
 #email{
   text-align: center;
 }
+
 
 
 
